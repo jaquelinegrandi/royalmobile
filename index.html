@@ -15,32 +15,34 @@
 <body>
     <header>
          <nav class="navbar">
-            <div class="container navbar">
+            <div class="container">
 
                 <div class="logo">
-                <a href="index.html"><img src="images/logo.png" alt=""></a>
-                <h1>Hailpro PDR Solutions</h1>
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+            
+
+                <button class="menu-toggle" id="open-menu" aria-label="Open-menu">
+                    <i class="bi bi-list"></i>
+                </button>
+
+                <ul class="nav-menu" id="nav-menu">
+
+                    <li class="menu-close-item">
+                        <button class="close-menu" id="close-menu" aria-label="Close-menu">
+                            <i class="bi bi-x-lg"></i>
+                        </button>
+                    </li>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                    <li><a href="contact.html" class="btn-nav">Book Now</a></li>
+                </ul>
+
             </div>
-
-            <button class="menu-toggle" id="open-menu" aria-label="Open-menu">
-                <i class="bi bi-list"></i>
-            </button>
-
-            <ul class="nav-menu" id="nav-menu">
-
-                <li class="menu-close-item">
-                    <button class="close-menu" id="close-menu" aria-label="Close-menu">
-                        <i class="bi bi-x-lg"></i>
-                    </button>
-                </li>
-
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-
-                <li><a href="contact.html" class="btn-nav">Book Now</a></li>
-            </ul>
         </nav>
     </header>
 
@@ -67,27 +69,27 @@
         <div class="container">
             <div class="service-header">
                 <span class="section-subtitle">
-                    Featured Artwork
+                    Services
                 </span>
-                <h2 class="section-title">Inspired by Nature</h2>
+                <h2 class="section-title">Expert Care. Lasting Results</h2>
             </div>
 
             <div class="service-grid">
 
                 <div class="service-card">
-                    <img src="images/exterior.png" alt="repair icon">
+                    <img src="images/exterior.png" alt="exterior car washing">
                     <h3>Exterior Detailing</h3>
                     <p>Deep wash, decontamination, and protection to restore your vehicle's shine.</p>
                 </div>
 
                 <div class="service-card">
-                    <img src="images/interior.png" alt="hail icon">
+                    <img src="images/interior.png" alt="interior car cleaning">
                     <h3>Interior detailing</h3>
                     <p>Through cleaning and conditioning for a fresh and comfortable ride.</p>
                 </div>
 
                 <div class="service-card">
-                    <img src="images/ceramic.png" alt="mobile service icon">
+                    <img src="images/ceramic.png" alt="ceramic coating">
                     <h3>Ceramic coating</h3>
                     <p>
                     Advances protection for long-lasting shine, depth, and durability.
@@ -97,7 +99,7 @@
                 </div>
 
                 <div class="service-card">
-                    <img src="images/rv-boat.png" alt="mobile service icon">
+                    <img src="images/rv-boat.png" alt="RV">
                     <h3>RV & Boat detailing</h3>
                     <p>
                     Specialized care for RVs, boats and other large vehicles.
@@ -134,7 +136,7 @@
                 </div>
 
                 <div class="about-img">
-                    <img src="images/about.png" alt="maylon and jo">
+                    <img src="images/about.png" alt="">
                 </div>
             </div>
 
@@ -144,28 +146,31 @@
             <div class="container">
                 <div class="gallery-header">
                     <span class="section-subtitle">
-                        Featured Artwork
+                        Gallery
                     </span>
-                    <h2 class="section-title">Inspired by Nature</h2>
+                    <h2 class="section-title">Reccent Work</h2>
                 </div>
 
                 <div class="gallery-grid">
 
                     <div class="gallery-card">
-                        <img src="images/exterior.png" alt="repair icon">
+                        <img src="images/gallery-1.jpg" alt="repair icon">
                     </div>
 
                     <div class="gallery-card">
-                        <img src="images/interior.png" alt="hail icon">
-                        <h3>Interior detailing</h3>
+                        <img src="images/gallery-4.jpg" alt="hail icon">
                     </div>
 
                     <div class="gallery-card">
-                        <img src="images/ceramic.png" alt="mobile service icon">
+                        <img src="images/gallery-6.jpg" alt="mobile service icon">
                     </div>
 
                     <div class="gallery-card">
-                        <img src="images/rv-boat.png" alt="mobile service icon">
+                        <img src="images/gallery-7.jpg" alt="mobile service icon">
+                    </div>
+
+                    <div class="gallery-card">
+                        <img src="images/gallery-8.jpg" alt="">
                     </div>
 
                     <div class="service-cta">
@@ -185,7 +190,7 @@
                 <div class="footer-column">
 
                     <a href="index.html" class="footer-logo">
-                        <img src="images/logobackground.png" alt="AJS Columbus Handyman Logo">
+                        <img src="images/logo.png" alt="">
                     </a>
 
                     <p class="footer-text">
@@ -194,7 +199,7 @@
 
                     <div class="footer-social">
 
-                        <a href="#" aria-label="Facebook">
+                        <a href="https://www.facebook.com/Ronthadetaildon" aria-label="Facebook">
                             <i class="bi bi-facebook"></i>
                         </a>
 
@@ -262,11 +267,9 @@
                         </li>
 
                         <li>
-                            <i class="bi bi-facebook"></i>
-
-                            <a href="https://www.facebook.com/Ronthadetaildon">
-                                Follow us on Facebook
-                            </a>
+                            <i class="bi bi-clock"></i>
+                            <p><strong>Hours:</strong> <br> Monday to Friday: 9AM - 5:30PM <br>
+                            Saturday: 10 AM - 2 PM <br> Sunday: Closed </p>
                         </li>
 
                     </ul>
